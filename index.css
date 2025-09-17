@@ -82,7 +82,7 @@ body{
 .page1 .p-container{
     font-size: 61.44px;
     line-height: 76.8px;
-    font-family: pp;
+    font-family:neue;
     letter-spacing: 
 -0.9216px;
 }
@@ -102,7 +102,7 @@ body{
 .p1-container{
     font-size: 54.44px;
     line-height: 74.8px;
-    font-family: pp;
+    font-family: neue;
     letter-spacing:-0.9216px;
 }
 .page3{
@@ -114,7 +114,7 @@ body{
 .p2-container{
     font-size: 54.44px;
     line-height: 74.8px;
-    font-family: pp;
+    font-family: neue;
 }
 @media (max-width:700px) {
     *{
@@ -154,3 +154,4 @@ body{
     }
 
 }
+
