@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Neue;
+    src: url(./NeueHaasGrotDisp-65Medium-Trial.otf);
+}
+@font-face {
+    font-family: PP;
+    src: url(/MAIN/PPNeueMontreal-Regular.ttf);
+}
+@font-face {
+    font-family: MOM;
+    src: url(/MAIN/MonumentExtended-Ultrabold.otf);
+}
+@font-face {
+    font-family: S;
+    src: url(/MAIN/fonnts.com-Suisse_Intl_Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* cursor: none;     */
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    color: #fff;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+::selection{
+    background: yellow;
+    color: orangered;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+}
+.nav{
+    height: 5%;
+    padding: 1.2vw 0.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: PP;
+}
+.nav h4{
+    font-size: 20PX;
+}
+.nav h5{
+    font-size: 17px;
+}
+.left-options{
+    gap: 7px;
+    display: flex;
+    font-family: neue;
+}
+.center{
+    height: 95%;
+    width: 100%;
+    /* background: red; */
+}
+.left-p{
+    font-family: pp;
+    position: absolute;
+    bottom: 0;
+    bottom: 2vw;
+    font-size: 90px;
+    margin-left: 1vw;
+    /* letter-spacing: 1px; */
+    line-height: 1.2;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    padding: 8vw 4vw;
+    background: #000;
+}
+.page1 .p-container{
+    font-size: 61.44px;
+    line-height: 76.8px;
+    font-family: pp;
+    letter-spacing: 
+-0.9216px;
+}
+.little-left{
+    margin-left: 11.5vw;
+}
+.page2{
+    height: 100vh;
+    padding: 8vw 4vw;
+    width: 100%;
+    background: #000;
+}
+.center .left-p{
+    width: 50%;
+    font-size: 33px;
+}
+.p1-container{
+    font-size: 54.44px;
+    line-height: 74.8px;
+    font-family: pp;
+    letter-spacing:-0.9216px;
+}
+.page3{
+    height: 70vh;
+    width: 100%;
+    background: #000;
+    padding: 3vw 4vw;
+}
+.p2-container{
+    font-size: 54.44px;
+    line-height: 74.8px;
+    font-family: pp;
+}
+@media (max-width:700px) {
+    *{
+        font-family: PP;
+    }
+    .nav{
+        display: flex;
+        font-size: 100px;
+        padding: 0vw 1vw;
+    }
+    .left-p p{
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 1vw;
+        width: 90vw;
+    }
+    .p-container p{
+        font-size: 40px;
+        line-height: 1.2;
+        margin-top: 8vw;
+    }
+    .p1-container p{
+        font-size: 40px;
+       line-height: 1.2;
+    }
+    .p1-container{
+        margin-top: 5vw;
+    }
+    .p2-container{
+        font-size: 40px;
+        line-height: 1.2;
+        margin-top: 25vw;
+    }
+    .page3{
+        height: 100vh;
+        width: 100%;
+    }
+}
