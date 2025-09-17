@@ -121,11 +121,7 @@ body{
 @media(max-width: 430px)  {
     *{
         font-family: Neue;
-    }
-    .nav{
-        display: flex;
-        font-size: 100px;
-        padding: 0vw 1vw;
+        color:red;
     }
     .left-p p{
         font-size: 46px;
@@ -157,6 +153,7 @@ body{
     }
 
 }
+
 
 
 
