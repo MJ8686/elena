@@ -19,8 +19,8 @@
     padding: 0;
     /* cursor: none;     */
     box-sizing: border-box;
-    font-family:Neue;
 }
+    font-family:Neue;
 body{
     height: 100%;
     color: #fff;
@@ -117,7 +117,7 @@ body{
     line-height: 74.8px;
     font-family: Neue;
 }
-@media (max-width:700px) {
+@media (min-width: 431px) and (max-width: 768px)  {
     *{
         font-family: Neue;
     }
@@ -155,6 +155,7 @@ body{
     }
 
 }
+
 
 
 
