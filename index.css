@@ -102,19 +102,20 @@ body{
 .p1-container{
     font-size: 54.44px;
     line-height: 74.8px;
-    font-family: neue;
+    font-family:Neue;
     letter-spacing:-0.9216px;
 }
 .page3{
     height: 70vh;
     width: 100%;
     background: #000;
+    font-family:Neue;
     padding: 3vw 4vw;
 }
 .p2-container{
     font-size: 54.44px;
     line-height: 74.8px;
-    font-family: neue;
+    font-family: Neue;
 }
 @media (max-width:700px) {
     *{
@@ -154,4 +155,5 @@ body{
     }
 
 }
+
 
