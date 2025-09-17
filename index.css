@@ -19,6 +19,7 @@
     padding: 0;
     /* cursor: none;     */
     font-family:Neue;
+    color:#fff;
     box-sizing: border-box;
 }
 body{
@@ -155,6 +156,7 @@ body{
     }
 
 }
+
 
 
 
