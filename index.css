@@ -18,9 +18,9 @@
     margin: 0;
     padding: 0;
     /* cursor: none;     */
+    font-family:Neue;
     box-sizing: border-box;
 }
-    font-family:Neue;
 body{
     height: 100%;
     color: #fff;
@@ -155,6 +155,7 @@ body{
     }
 
 }
+
 
 
 
